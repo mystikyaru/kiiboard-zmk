@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: kiiboard-zmk-shield-module
+      url: https://github.com/mystikyaru/kiiboard-zmk-shield-module
+      revision: main
+      path: modules/kiiboard-zmk-shield-module
   self:
     path: config
